@@ -1,0 +1,7 @@
+.env/
+*.pyc
+*.swp
+*.egg
+__pycache__/
+test.py
+.vscode/
