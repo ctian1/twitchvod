@@ -1,0 +1,59 @@
+"""Mock data to be used in unittests"""
+
+MOCK_STREAM_INFO_RECORD = ('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=286082,'
+                           'CODECS="avc1.4D400C,mp4a.40.2",'
+                           'RESOLUTION="284x160",VIDEO="160p30",'
+                           'FRAME-RATE=29.925')
+
+
+MOCK_STREAM_VARIATION_RECORDS = [
+    "Junk data",
+    "Moar junk",
+    ('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=286082,'
+     'CODECS="avc1.4D400C,mp4a.40.2",RESOLUTION="284x160"'
+     ',VIDEO="160p30",FRAME-RATE=29.925'),
+    ('https://vod-metro.twitch.tv/bccf6e16a67fe2619f56_'
+     'channel_32415582688_1094599349/160p30/index-dvr.m3u8'),
+    "Ok",
+    "Almost there",
+    ('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3297816,'
+     'CODECS="avc1.64002A,mp4a.40.2",RESOLUTION="1920x1080",'
+     'VIDEO="chunked",FRAME-RATE=59.814'),
+    ('https://vod-metro.twitch.tv/bccf6e16a67fe2619f56_'
+     'channel_32415582688_1094599349/chunked/index-dvr.m3u8'),
+    "Fin"
+]
+
+MOCK_STREAM_INDEX_DATA = """#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:13
+#ID3-EQUIV-TDTG:2019-01-24T01:08:56
+#EXT-X-PLAYLIST-TYPE:EVENT
+#EXT-X-MEDIA-SEQUENCE:0
+#EXT-X-TWITCH-ELAPSED-SECS:0.000
+#EXT-X-TWITCH-TOTAL-SECS:14749.009
+#EXTINF:10.000,
+0.ts
+#EXTINF:10.000,
+1.ts
+#EXTINF:10.000,
+2.ts
+#EXTINF:10.000,
+3.ts
+#EXTINF:10.000,
+4.ts
+#EXTINF:10.000,
+5.ts
+#EXTINF:10.000,
+6.ts
+#EXTINF:10.000,
+7.ts
+#EXTINF:10.000,
+8.ts
+#EXTINF:10.000,
+9.ts
+#EXTINF:10.000,
+10.ts
+#EXT-X-ENDLIST
+
+"""
