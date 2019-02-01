@@ -1,8 +1,6 @@
 Twitchvod (v0.1.0) [![Build Status](https://travis-ci.com/nomadmtb/twitchvod.svg?branch=master)](https://travis-ci.com/nomadmtb/twitchvod)
 =========
 
----
-
 ##### Installation
 `pip install twitchvod`
 
