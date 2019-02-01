@@ -1,4 +1,4 @@
-Twitchvod
+Twitchvod [![Build Status](https://travis-ci.com/nomadmtb/twitchvod.svg?branch=master)](https://travis-ci.com/nomadmtb/twitchvod)
 =========
 
 **Please note that this library is to be used at your own risk. Using undocumented api interfaces is against the Twitch terms of service. I take no responsibility if your developer tokens get
