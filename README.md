@@ -1,4 +1,4 @@
-Twitchvod (v0.1.0) [![Build Status](https://travis-ci.com/nomadmtb/twitchvod.svg?branch=master)](https://travis-ci.com/nomadmtb/twitchvod)
+Twitchvod (v0.1.1) [![Build Status](https://travis-ci.com/nomadmtb/twitchvod.svg?branch=master)](https://travis-ci.com/nomadmtb/twitchvod)
 =========
 
 ##### Installation
