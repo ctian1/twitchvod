@@ -3,3 +3,6 @@ lint:
 
 test:
 	pytest
+
+coverage:
+	pytest --cov-report term-missing --cov=twitchvod/ tests/
