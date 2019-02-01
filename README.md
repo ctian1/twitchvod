@@ -1,4 +1,4 @@
-Twitchvod
+Twitchvod [![Build Status](https://travis-ci.com/nomadmtb/twitchvod.svg?branch=master)](https://travis-ci.com/nomadmtb/twitchvod)
 =========
 
 **Please note that this library is to be used at your own risk. Using undocumented api interfaces is against the Twitch terms of service. I take no responsibility if your developer tokens get
@@ -8,10 +8,7 @@ Okay now for the more interesting stuff.
 
 This API client will use your provided Twitch developer client_id to make several requests to Twitch API endpoints to fetch information related to a particular VOD. You can even query for all of the MPEG-2 Transport Stream files to which you can download however you wish. For this example, let's say you want to download VOD [372739399](https://www.twitch.tv/videos/372739399).
 
-```python
-Python 3.7.2 (default, Jan 29 2019, 19:54:11) 
-[GCC 7.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
+```
 >>> from twitchvod import Client
 
 >>> client = Client("YOUR-TWITCH-DEV-CLIENT-ID")
