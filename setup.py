@@ -7,7 +7,7 @@ from setuptools import setup
 
 CWD = os.path.abspath(os.path.dirname(__file__))
 PACKAGES = ["twitchvod"]
-REQUIRES = ["requests>=2.13.0,<=2.21.0"]
+REQUIRES = ["requests>=2.13.0,<=2.22.0"]
 
 VER = {}
 VER_PATH = os.path.join(CWD, "twitchvod", "__version__.py")
